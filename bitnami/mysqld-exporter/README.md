@@ -94,6 +94,8 @@ We can launch another containers using the same flag (`--network NETWORK`) in th
 
 Find all the configuration flags in [the MySQL Server Exporter official documentation](https://github.com/prometheus/mysqld_exporter#collector-flags).
 
+If you want to bring your own configuration, `.my.cnf` file must be located in `/opt/bitnami/mysqld-exporter/.my.cnf`.
+
 ## Logging
 
 The Bitnami MySQL Server Exporter Docker image sends the container logs to `stdout`. To view the logs:
